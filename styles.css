@@ -1,29 +1,33 @@
 h1 { color: red; }
 
+* {
+    background-color: #1C2025;
+}
+
 .topnav {
-    background-color: #22223b;
-    overflow: hidden;
+    width: 100%;
+    background-color: #2F2F2F;
+    overflow: auto;
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: #f2e9e4;
+    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-}
+    border-bottom: 3px solid transparent;
+    width: 25%;
+    text-align: center;
+  }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    color: #f3f2f5;
-  }
-
-  /* Add an active class to highlight the current page */
-.topnav a.active {
-    background-color: #4a4e69;
-    color: #f3f2f5;
+    color: #269D91;
+    border-bottom: 3px solid #1B7068;
+    text-decoration: none;
   }
 
   /* Hide the link that should open and close the topnav on small screens */
@@ -47,6 +51,7 @@ h1 { color: red; }
       position: absolute;
       right: 0;
       top: 0;
+      text-align: center;
     }
     .topnav.responsive a {
       float: none;
