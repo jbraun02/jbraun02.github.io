@@ -91,6 +91,33 @@ span{
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.about {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about li {
+  margin-bottom: 10px;
+}
+
+.about .col-md-3 {
+  padding: 0 10px;
+  border: 2px solid #FFA17A;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  margin: 45px;
+  color:#4F0113;
+}
+
 .social-icons {
   position: absolute;
   top: 10px;
@@ -112,5 +139,9 @@ span{
   .education-col,
   .experience-col {
       margin: 0 0 20px;
+  }
+
+  .about .col-md-3 {
+    margin: 0 0 40px;
   }
 }
