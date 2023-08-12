@@ -90,3 +90,27 @@ span{
   margin-left: 15px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
+
+.social-icons {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  
+}
+
+.social-icons a {
+  color: #FFA17A;
+  margin-left: 10px;
+}
+
+.social-icons a:hover {
+  color: #4F0113;
+}
+
+@media (max-width: 767px) {
+  .education-col,
+  .experience-col {
+      margin: 0 0 20px;
+  }
+}
