@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Stylesheets-->
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
 
     <!-- JavaScript Links-->
-    <script type="text/javascript" src="javascript/topnav.js"></script>
+    <script type="text/javascript" src="javascript/script.js"></script>
     <script src="https://kit.fontawesome.com/e46db1f047.js" crossorigin="anonymous"></script>
     
     <!--Title and Icon-->
@@ -18,16 +18,77 @@
     <link rel="icon" href="assets/images/zoro_icon.ico" type="image/x-icon"/>
   </head>
   <body>
-    <div class="topnav" id="myTopnav">
-        <a href="index.html" class="active"><i class="fa-solid fa-house fa-xs"></i></i>  Home  </a>
-        <a href="projects.html"><i class="fa-solid fa-scroll fa-xs"></i>  Projects  </a>
-        <a href="about.html"><i class="fa-solid fa-face-meh fa-xs"></i>  About  </a>
-        <a href="contact.html"><i class="fa-solid fa-address-book fa-xs"></i>  Contact  </a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-    <h1>Welcome to My Homepage</h1>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="assets/images/jenna_icon.png" alt="Jenna Braun Icon" style="width: 100px; height: auto; position: relative; float:left;">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <h3>Hello, it's me</h1>
+            <h1 id="message">Jenna.</h1>
+        </div>
+    </section>
+
+    <section class="sections">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-5 education-col">
+              <h2>Education</h2>
+              <h5>University of California, Berkeley</h5>
+              <h6>Data Science, Applied Mathematics & Modeling</h6>
+              <p>Relevant Coursework:</p>
+              <ul>
+                <li>Data 8: Foundations of Data Science</li>
+                <li>Data C100: Principles & Techniques of Data Science </li>
+                <li>Data 101: Data Engineering</li>
+                <li>Data C140: Probability for Data Science</li>
+                <li>Data 144: Data Mining and Analytics</li>
+                <li>CS 61A: The Structure and Interpretation of Computer Programs</li>
+                <li>CS 61B: Data Structures</li>
+                <li>CS 169A: Software Engineering</li>
+                <li>CIV ENG 88: Data Science for Smart Cities</li>
+                <li>IND ENG 162: Linear Programming and Network Flows</li>
+              </ul>
+              <p>Planned Coursework:</p>
+              <ul>
+                <li>IND ENG 160: Nonlinear and Discrete Optimization</li>
+                <li>CS 189: Introduction to Machine Learning</li>
+              </ul>
+            </div>
+            <div class="col-md-5 experience-col">
+                <h2>Work Experience</h2>
+                <h5>Field Training Officer</h5>
+                <h6>University of California Police Department</h6>
+                <ul>
+                    <li>Provide the BearWALK night safety escort service to students, faculty, and community members to promote safety and security on campus and in the city of Berkeley, CA.</li>
+                    <li>Train and mentor new trainees in the procedures and protocols of the CSO Program.</li>
+                </ul>
+                
+                <h5>Fung Fellowship</h5>
+                <h6>Conservation & Technology Fellow</h6>
+                <ul>
+                    <li>Worked alongside industry partners to research and ideate technology-rooted products that provide viable solutions for issues in conservation and biodiversity.</li>
+                    <li>Recipient of the Fung Fellowship's Innovation Award for demonstrating exceptional problem-solving, originality, and potential impact in addressing critical conservation issues.</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br>
+      
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

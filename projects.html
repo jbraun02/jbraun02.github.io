@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Stylesheets-->
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="styles.css">
+    
     <!-- JavaScript Links-->
     <script type="text/javascript" src="javascript/topnav.js"></script>
     <script src="https://kit.fontawesome.com/e46db1f047.js" crossorigin="anonymous"></script>
@@ -18,16 +18,21 @@
     <link rel="icon" href="assets/images/zoro_icon.ico" type="image/x-icon"/>
   </head>
   <body>
-    <div class="topnav" id="myTopnav">
-        <a href="index.html"><i class="fa-solid fa-house fa-xs"></i></i>  Home  </a>
-        <a href="projects.html" class="active"><i class="fa-solid fa-scroll fa-xs"></i>  Projects  </a>
-        <a href="about.html"><i class="fa-solid fa-face-meh fa-xs"></i>  About  </a>
-        <a href="contact.html"><i class="fa-solid fa-address-book fa-xs"></i>  Contact  </a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-    <h1>Welcome to My Projects</h1>
+    <header>
+      <div class="logo">
+          <a href="index.html">
+              <img src="assets/images/jenna_icon.png" alt="Jenna Braun Icon" style="width: 100px; height: auto; position: relative; float:left;">
+          </a>
+      </div>
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="projects.html" class="active">Projects</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
+    </header>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
